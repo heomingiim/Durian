@@ -1,0 +1,35 @@
+# 환경변수 (API 키 등 민감 정보)
+.env
+
+# 데이터 (개인정보 포함)
+dataset/
+output/
+
+# 벡터 DB
+vector_db/
+
+# 모델 파일 (대용량)
+models/
+*.gguf
+
+# Python 캐시
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter 체크포인트
+.ipynb_checkpoints/
+
+# RAG 실습 파일
+01_RAG_실습*.ipynb
+RAG_코딩가이드.md
+
+# Claude 생성 문서
+preprocessing_policy.md
+
+# 참고 문서
+참고/
+
+# 운영체제
+.DS_Store
+Thumbs.db
